@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple choice quations</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h1>JavaScript Quiz</h1>  
+        <div id="time-left"> </div>
+        <div class="score"></div>
+    </div>
+    <hr>
+    <div class="container">
+            <div id="divForQuastion" class="quastions">
+                <div class="quastionDiv">
+                    <p class="pargraphQ"> 1) Which type of JavaScript language is</p>
+                    <input type="radio" id="q1choice1" name="quastion1" value="Object-Based">
+                    <label for="Object-Based">Object-Based</label><br>   <!--Ans-->
+                    <input type="radio" id="q1choice2" name="quastion1" value="Object-Oriented">
+                    <label for="Object-Oriented">Object-Oriented</label><br>
+                    <input type="radio" id="q1choice3" name="quastion1" value="High-level">
+                    <label for="High-level">High-level</label><br>
+                    <div class="message" id="resultOfAns1"></div>
+                </div>
+                
+                <div  class="quastionDiv">
+                    <p class="pargraphQ"> 2) Which one of the following also known as Conditional Expression </p>
+                    <input type="radio" id="q2choice1" name="quastion2" value="AlternativeIf">
+                    <label for="AlternativeIf">Alternative to if-else</label><br>
+                    <input type="radio" id="q2choice2" name="quastion2" value="Switch">
+                    <label for="Switch">Switch statement</label><br>
+                    <input type="radio" id="q2choice3" name="quastion2" value="immediateIf"><!--Ans-->
+                    <label for="immediateIf">immediate if</label><br>
+                    <div id="resultOfAns2"></div>
+                </div>
+                <div  class="quastionDiv">
+                    <p class="pargraphQ"> 3) In JavaScript, what is a block of statement</p>
+                    <input type="radio" id="q3choice1" name="quastion3" value="Conditional-block">
+                    <label for="Conditional-block">Conditional block</label><br>
+                    <input type="radio" id="q3choice2" name="quastion3" value="blockCombines">
+                    <label for="blockCombines">block that combines a number of statements into a single compound statement</label><br><!--Ans-->
+                    <input type="radio" id="q3choice3" name="quastion3" value="bothCS">
+                    <label for="bothCS">both conditional block and a single statement</label><br>
+                    <div id="resultOfAns3"></div>
+                </div>
+                <div  class="quastionDiv">
+                    <p class="pargraphQ"> 4) When interpreter encounters an empty statements, what it will do</p>
+                    <input type="radio" id="q4choice1" name="quastion4" value="Shows-warning">
+                    <label for="Shows-warning">Shows a warning</label><br>
+                    <input type="radio" id="q4choice2" name="quastion4" value="Ignore"><!--Ans-->
+                    <label for="Ignore">Ignores the statements</label><br>
+                    <input type="radio" id="q4choice3" name="quastion4" value="Throws">
+                    <label for="Throws">Throws an error</label><br>
+                    <div id="resultOfAns4"></div>
+                </div>
+                <div  class="quastionDiv">
+                    <p class="pargraphQ"> 5) The "function" and " var" are known as</p>
+                    <input type="radio" id="q5choice1" name="quastion5" value="Keywords">
+                    <label for="Keywords">Keywords</label><br>
+                    <input type="radio" id="q5choice2" name="quastion5" value="Declaration-statements">
+                    <label for="Declaration-statements">Declaration statements</label><br><!--Ans-->
+                    <input type="radio" id="q5choice3" name="quastion5" value="Prototypes">
+                    <label for="Prototypes">Prototypes</label><br>
+                    <div id="resultOfAns5"></div>
+                </div>              
+            </div>
+            <div class= "inputButton">
+                <input type="button" name="submit" value="Finish">      
+            </div> 
+        </div>
+    <script src="main.js"></script>
+</body>
+</html

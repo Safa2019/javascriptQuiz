@@ -1,0 +1,79 @@
+
+
+
+
+body{
+    font-family: Arial;
+    overflow: scroll;
+    overflow :scroll visible; 
+    background-image: url("backg.JPG") ; 
+    
+}
+h1{
+
+    text-align: center;
+    color: #eef0ea;
+}
+.container {
+    width: 800px;
+    max-width: none;
+    background-color: #c8bdbd00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 40px;
+   
+  }
+  .quastionDiv{
+    border: #d4a2a9;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    background-color: #eeeeeead;
+  }
+  
+  .pargraphQ{
+
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .inputButton{
+      margin: auto;
+  }
+  input { 
+   
+    border-color: #9b9b9b94;
+    background: #0081ca;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 7px;
+    outline: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: black;
+    margin: auto
+    
+  }
+  .score {
+    color: #eef0ea;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #time-left{
+    color: red;
+    background: #eef0ea;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+  }
